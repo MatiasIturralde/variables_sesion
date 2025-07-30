@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesando - Variables de Sesión</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/procesar.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Datos Guardados en Sesión!</h1>
+        
+        <div id='res'></div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="formulario.html" class="boton">Nuevo Registro</a>
+            <a href="ver_sesion.html" class="boton">Ver Todas las Variables</a>
+            <a href="destruir_sesion.html" class="boton boton-rojo">Destruir Sesión</a>
+        </div>
+        
+        <div style="background-color: #e7f3ff; padding: 15px; border-radius: 5px; margin-top: 20px;">
+            <h3>¿Qué aprendimos?</h3>
+            <ul>
+                <li><strong>session_start():</strong> Inicia o reanuda una sesión</li>
+                <li><strong>$_SESSION:</strong> Array donde guardamos nuestros datos</li>
+                <li><strong>$_POST:</strong> Datos que vienen del formulario</li>
+                <li>Los datos de sesión persisten entre páginas</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

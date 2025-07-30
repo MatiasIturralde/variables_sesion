@@ -1,10 +1,10 @@
-#Trabajo realizado variables_sesion
+# Trabajo realizado variables_sesion
 
-##Trabajo realizado por Matías Iturralde 3ºMA
+## Trabajo realizado por Matías Iturralde 3ºMA
 
 --
 
-###Notas 
+### Notas 
 
 -Se separaron de los archivos PHP que contenian las funciones y estructura html a archivos html por separados con archivos JS tambien individuales por cada html
 
